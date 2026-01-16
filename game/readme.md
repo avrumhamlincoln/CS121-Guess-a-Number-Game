@@ -3,19 +3,19 @@
 ```
 main():
   make a 20 lenghth caharacter array
+  ask user for name and set to userName
+  greet user
+
   make an int called guess and init to 999
-  make an int called correct and randomly generate the value
   make an int called turns and init to 0
   make an int (bool) called keepGoing init -1 (TRUE)
 
   seed random number gen
-  generate random number between 1 and 100 and set that number to correct
-  ask user for name and set to userName
-  greet user
+  make an int called correct set it to a randon number beteen 1 and 100
   
   while(keepGoing is TRUE:
-    incriment turn by 1
     ask user for number assign to guess
+    incriment turn by 1
     if guess < correct:
       tell the user "too low"
     else if guess > correct:
